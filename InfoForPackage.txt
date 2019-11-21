@@ -1,4 +1,7 @@
 # GoLangTutorial
+Before start to code, set path to the GOPATH
+For MAC, export GOPATH=<path_to_root_directory> (or) <parent_directory_of_src_directory>
+For Windows, set GOPATH=<same as above>
 In Go, it uses different method for using packaging from other languages like Java, Python, etc.
 If you want to work on the Go packages, 
     1. Have src directory in the project's root directory
