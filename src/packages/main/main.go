@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-
+	// can also use the package name as file name and import as "../package1"
+	// and accessed by package1
 	package12 "../package1" // <package_name> <location_of_the_package>
 )
 
