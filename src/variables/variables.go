@@ -4,6 +4,8 @@ import (
 	"fmt"
 )
 
+var packageVar int // package variables same as global variables
+
 func main() {
 
 	var variable int // declaring variable of syntax; var <name> <type>

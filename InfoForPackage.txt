@@ -13,4 +13,9 @@ If you want to work on the Go packages,
     7. Go will find the main package from the given directory that is inside the src
         and create a bin file from the src
     8. Execute the file to check whether the code is working or not
-    9. To use the package from another file, create the executable binary file and import them using file       path
+    9. To use the package from another file, create the executable binary file and import them using file path
+To run,
+    1. go run <file_name>
+To build,
+    1. go install <path to parent package of the main function file> 
+    The above command should be executed inside the GOPATH directory
