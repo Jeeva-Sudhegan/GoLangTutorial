@@ -1,0 +1,17 @@
+CONCURRENCY:
+    1. capability to deal with lots of things.
+    2. e.g. jogging person switch from jogging to tie his/her shoe and resumes jogging from where he begin ( context switching concept in OS )
+    3. which means he/she capable of doing many things
+
+PARALLELISM:
+    1. capability of dealing with lots of things at once.
+    2. e.g. jogging person listening music while jogging simultaneously
+    3. which means he is doing many things at the same time
+
+In single core processor, context switch happens between process. 
+So either one component does and other component waits and vice versa. => CONCURRENCY
+If in case of multi core processor, both components process simultaneously => PARALLELISM
+
+Parallelism are not always faster though, because there will be sometime where they need to communicate between each other.
+This communication overhead is low in concurrency.
+Whereas this communication overhead is high in parallelism.
